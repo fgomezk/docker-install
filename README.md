@@ -1,12 +1,17 @@
 # docker-install
 
-Bash script to install docker in ubuntu 16.04 64 Bits.
+ Bash script to install docker in ubuntu 16.04 64 Bits.
+
 # Installation
 
-Download "docker-install" and make it executable:
+  Download "docker-install" from github or with git:
 
-   sudo chmod 755 docker-install
+    git clone https://github.com/fgomezk/docker-install.git
 
-Execute with administrator rights:
+  Make it executable:
 
-sudo docker-install
+    sudo chmod 755 docker-install
+
+  Execute with administrator rights:
+
+    sudo docker-install
