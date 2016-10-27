@@ -11,7 +11,3 @@
   Make it executable:
 
     sudo chmod 755 docker-install
-
-  Execute with administrator rights:
-
-    sudo docker-install
