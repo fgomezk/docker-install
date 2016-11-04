@@ -7,10 +7,10 @@ sudo apt-get update
 sudo apt-get -y install apt-transport-https ca-certificates
 
 # Add the new GPG Key
-apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E$
+sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
 
 # Add Docker repository
-sudo echo "deb https://apt.dockerproject.org/repo ubuntu-xenial main" > /etc/ap$
+echo "deb https://apt.dockerproject.org/repo ubuntu-xenial main" | sudo tee /etc/apt/sources.list.d/docker.list
 
 # Update the system to load the new repo
 sudo apt-get -y update
